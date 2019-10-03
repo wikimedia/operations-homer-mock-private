@@ -1,0 +1,6 @@
+# PUBLIC REPO - FAKE DATA ONLY
+---
+snmp_community: secret
+junos_root_password: $aaaaaaaaaaaaaaaaaaaaaaaaaaa
+junos_ospf_md5_key: $aaaaaaaaaaaaaaaaaaa
+junos_vrrp_key: $aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

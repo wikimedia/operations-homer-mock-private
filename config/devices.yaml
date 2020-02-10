@@ -1,5 +1,6 @@
 # PUBLIC REPO - FAKE DATA ONLY
 ---
+# yamllint disable rule:line-length
 asw2-a-eqiad.mgmt.eqiad.wmnet:
   license_keys:
     - JUNOS123456789 aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaa
@@ -14,3 +15,5 @@ asw2-c-eqiad.mgmt.eqiad.wmnet:
   license_keys:
     - JUNOS123456789 aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaa
     - JUNOS123456789 aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaaa aaaaa
+
+# yamllint disable rule:line-length

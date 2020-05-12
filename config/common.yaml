@@ -6,3 +6,16 @@ snmp_communities:
 junos_root_password: $aaaaaaaaaaaaaaaaaaaaaaaaaaa
 junos_ospf_md5_key: $aaaaaaaaaaaaaaaaaaa
 junos_vrrp_key: $aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+trusted_space4: []
+#   - description: text
+#     network: 192.0.0.0/24
+trusted_space6: []
+
+# Prefixes to ban, v4 and v6 with subnet
+# blackhole:
+#   - 192.0.0.0/24
+#   - 2606:2800:220:1::/64
+#
+blackhole: []
+#

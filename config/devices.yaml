@@ -1,5 +1,15 @@
 # PUBLIC REPO - FAKE DATA ONLY
 ---
+
+cr3-knams.wikimedia.org:
+  bgp_keys:
+    192.0.2.1: $9$foobar
+    2001:db8::1: $9$foobar
+cr2-esams.wikimedia.org:
+  bgp_keys:
+    192.0.2.2: $9$foobar
+    2001:db8::1: $9$foobar
+
 # yamllint disable rule:line-length
 asw2-a-eqiad.mgmt.eqiad.wmnet:
   license_keys:

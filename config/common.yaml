@@ -3,9 +3,19 @@
 snmp_communities:
   - secret
   - moresecret
-junos_root_password: $aaaaaaaaaaaaaaaaaaaaaaaaaaa
+junos_root_password: $6$aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 junos_ospf_md5_key: $aaaaaaaaaaaaaaaaaaa
 junos_vrrp_key: $aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+users_passwords:
+  rancid: $6$aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+nokia_users_passwords:
+  admin: $y$jaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  linuxadmin: $y$jaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  homer: $y$jaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+nokia_snmp_community: $aesaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 trusted_space4: []
 #   - description: text
